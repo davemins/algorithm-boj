@@ -1,3 +1,5 @@
+"""곱셈"""
+
 a = int(input())
 b = int(input())
 
