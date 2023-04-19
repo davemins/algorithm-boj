@@ -2,9 +2,7 @@
 
 N = int(input())
 
-a = input().split()
-
-list_a = list(map(int, a))
+list_a = list(map(int, input().split()))
 
 num = int(input())
 
