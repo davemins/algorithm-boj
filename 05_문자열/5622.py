@@ -23,3 +23,6 @@ for i in range(len(word)):
         total_elapsed_second += 10
 
 print(total_elapsed_second)
+
+
+'''어떻게 해야 할까? '''
