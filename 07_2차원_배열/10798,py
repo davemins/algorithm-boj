@@ -1,0 +1,20 @@
+"""세로읽기"""
+
+words = [[None for i in range(15)] for j in range(5)]
+
+for i in range(5):
+    word = list(input())
+    words[i] = word
+
+for m in range(15):
+    for n in range(5):
+        try:
+            if words[n][m]:
+                print(words[n][m], end='')
+
+            else:
+                continue
+        except:
+            continue
+
+# 00 10 20 30 40 50
