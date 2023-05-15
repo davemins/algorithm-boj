@@ -17,33 +17,22 @@ a3 b3
 
 -> a1 +10 <= a2이면 끝내기, a1 + 10 > a2이면 
 
+100 * 100 이차원 리스트에서 차지하는 부분은 1로 바꾸어주어 넓이 구한다
+
 '''
 
-# 색종이 개수 입력
-paper = int(input())
+N = int(input())
 
-# # 좌하 꼭짓점 좌표 입력받기
-coordinate = []
+paper = [[0 for i in range(100)] for j in range(100)]
 
-for i in range(paper):
-    coordi = list(map(int, input().split()))
-    coordinate.append(coordi)
+for i in range(N):
+    col, row = map(int, input().split())
+    for j in range(col, col + 10):
+        for k in range(row, row + 10):
+            paper[j - 1][k - 1] = 1
 
+area = 0
+for l in paper:
+    area += sum(l)
 
-overlapped_area = 0
-
-# 반복문으로 겹치는 넓이 구하기
-for m in range(paper):
-    for n in range(m + 1, paper):
-        width1 = min(coordinate[m][0], coordinate[n][0])
-        width2 = max(coordinate[m][0], coordinate[n][0])
-        length1 = min(coordinate[m][1], coordinate[n][1])
-        length2 = max(coordinate[m][1], coordinate[n][1])
-        
-        if ((width1 + 10) <= width2) or ((length1 + 10) <= length2):
-            continue
-        else:
-            overlapped_area += (width1 + 10 - width2) * (length1 + 10 - length2)
-
-area = paper * 100 - (overlapped_area)
 print(area)
