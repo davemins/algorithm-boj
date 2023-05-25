@@ -16,19 +16,12 @@
 
 
     '''
-while 1:
-    number = int(input())
+n = int(input())
 
-    def door(num):
-        if num == 1:
-            return 1
-        else:
-            door_num = 0
-            while True:
-                if num < 2 + 3 * (door_num * (door_num - 1)):
-                    break
-                door_num += 1
-            return door_num
+nums_pileup = 1  # 벌집의 개수, 1개부터 시작
+cnt = 1
 
-    print(door(number))
-    print()
+while n > nums_pileup:
+    nums_pileup += 6 * cnt  # 벌집이 6의 배수로 증가
+    cnt += 1
+print(cnt)
