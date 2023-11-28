@@ -10,10 +10,6 @@
 
 (1 + n) * n / 2 = k
 
-
-
-
-
 '''
 number = int(input())
 
