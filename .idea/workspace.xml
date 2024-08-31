@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2e0844c9-15e7-4a8c-9c1b-33444d90e2a7" name="Changes" comment="feat: 2869 달팽이는 올라가고 싶다">
-      <change afterPath="$PROJECT_DIR$/.idea/algorithm-boj.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_약수, 배수와 소수/5086.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_일반수학1/tempCodeRunnerFile.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +25,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2LOpkgzkVlFvc6DltsUaKDQ1kU8" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,7 +42,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/develop/algorithm-boj",
+    "last_opened_file_path": "D:/develop/practice-Algorithm",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -72,7 +67,10 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1675752127525</updated>
-      <workItem from="1704091523720" duration="409000" />
+      <workItem from="1704091523720" duration="929000" />
+      <workItem from="1713770133631" duration="301000" />
+      <workItem from="1713775867825" duration="599000" />
+      <workItem from="1714653359521" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="test1. 성공">
       <created>1675752734042</created>
@@ -98,5 +96,8 @@
     <MESSAGE value="test1. 성공" />
     <MESSAGE value="feat: 2869 달팽이는 올라가고 싶다" />
     <option name="LAST_COMMIT_MESSAGE" value="feat: 2869 달팽이는 올라가고 싶다" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/algorithm_boj$5086.coverage" NAME="5086 Coverage Results" MODIFIED="1704092133498" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/09_약수, 배수와 소수" />
   </component>
 </project>
