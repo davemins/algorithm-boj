@@ -21,8 +21,13 @@ for t in range(N):
         num = num % len(arr)
 
     answer.append(str(arr.pop(num)))
-print("<", ", ".join(answer)[:], ">", sep='')
 
+print("<", end="")
+
+for i in range(len(answer) - 1):
+    print(answer[i] + ",", end="")
+
+print(answer[len(answer) - 1] + ">")
 '''
 # 푼 시간
 30분
@@ -37,5 +42,5 @@ print("<", ", ".join(answer)[:], ">", sep='')
 손으로 쓰면서 끝까지 검증하지 않고 구현하며 테스트하면서 검증하려 했다.
 그래서 시간 다 잡아먹고 틀렸다..
 
-풀이를 깔끔하게 쓰면서 놓치는 것이 없게 하자
+풀이를 깔끔하게 쓰면서 놓치는 것이 없게 하자.
 '''
