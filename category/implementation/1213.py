@@ -17,6 +17,7 @@ result_list = []
 
 odd = ''
 
+
 for i in range(len(str_input)):
     str_list.append(str_input[i])
 
