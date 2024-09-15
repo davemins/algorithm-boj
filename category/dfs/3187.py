@@ -11,6 +11,7 @@
 '''
 r, c = map(int, input().split())
 
+
 graph = []
 for i in range(r):
     graph.append(list(input()))  # 입력을 list로 변환
