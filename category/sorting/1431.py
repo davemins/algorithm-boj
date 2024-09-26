@@ -8,6 +8,7 @@
 # 복잡도
 데이터의 개수가 n이라고 할 때 O(n)의 시간복잡도를 가진다.
 
+
 '''
 n = int(input())
 data_location = [[] for _ in range(51)]
